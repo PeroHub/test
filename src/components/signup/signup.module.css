@@ -135,7 +135,6 @@
     left: 20px;
     display: flex;
     align-items: center;
-    width: 100%;
     gap: 10px;
 }
 
@@ -143,11 +142,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -10px;
-    flex-grow: 1;
+    margin-top: -5px;
     font-size: 10px;
     line-height: 22px;
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+
     cursor: pointer;
+}
+
+.show p {
+    position: absolute;
+    left: 270px;
 }
 
 
@@ -227,6 +234,11 @@
 
     .btnCon {
         width: 475px;
+    }
+
+    .show p {
+        /* position: absolute; */
+        left: 370px;
     }
 
     .foot {
