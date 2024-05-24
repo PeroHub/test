@@ -131,11 +131,23 @@
 
 .formInputSub {
     position: absolute;
-    top: 20px;
+    top:  15px;
     left: 20px;
     display: flex;
     align-items: center;
+    width: 100%;
     gap: 10px;
+}
+
+.show {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+    flex-grow: 1;
+    font-size: 10px;
+    line-height: 22px;
+    cursor: pointer;
 }
 
 

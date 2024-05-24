@@ -97,13 +97,15 @@ export const Signup = () => {
                             <div className={styles.formInput}>
                                 <input type="password" placeholder='*********' />
                                 <div className={styles.formInputSub}>
-                                    <div>
+                                    <div className={styles.show}>
                                         <img 
                                             src={lock} 
                                             alt="info" 
                                             height={"25px"} 
                                             width={"25px"} 
                                         />
+                                        <p>SHOW</p>
+
                                     </div>
                                 </div>
                             </div>
