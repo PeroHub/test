@@ -1,0 +1,263 @@
+.container {
+    /* position: relative; */
+    /* display: flex;
+    margin: 0 auto; */
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.bg {
+    background: linear-gradient(180deg, #59599B 0%, #24243E 59%, #0F0C29 100%);
+    /* min-width: 40%; */
+    min-height: 100vh;
+    /* display: none; */
+
+}
+
+@media screen and (max-width: 1080px) {
+    .bg {
+      display: none;
+    }
+  }
+
+.imageCon {
+    padding-top: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgEl {
+    height: 82px;
+    width: 126px;
+}
+
+.parnership {
+    padding-top: 300px;
+    padding-bottom: 20px;
+    align-items: center;
+    /* padding: 40px; */
+    text-align: center;
+}
+
+.firstPara {
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 0px 20px;
+    line-height: 36px;
+}
+
+.secondPara {
+    font-size: 0.8rem;
+    padding: 0px 70px;
+    color: #FFFFFF;
+}
+
+.conRight {
+    padding: 10px 10px;
+    /* padding: 40px 30px; */
+    /* min-width: 70%; */
+    
+}
+
+.become {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 111px; */
+}
+
+.become h2 {
+    color: #000000;
+    font-weight: 900;
+    /* font-size: 2rem; */
+    margin-top: 40px;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 36px;
+}
+
+.becomeText {
+    font-size: 16px;
+    margin-top: -2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.returnPara {
+    font-size: 12px;
+}
+
+.returnSpan {
+    font-weight: 900 !important;
+    font-size: 0.8rem;
+}
+
+.firstSub {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formInput {
+    position: relative;
+    /* border: 1px solid #757575; */
+    width: 320px;
+    height: 52px;
+    margin-top: 18px;
+
+}
+
+.formInput input {
+    border: 1px solid #757575;
+    /* width: inherit; */
+    width: 98.5%;
+    height: inherit;
+    /* border: none; */
+    padding: 0px 0px 0px 60px;
+}
+
+.formInput input:focus {
+    outline: none;
+}
+
+.formInputSub {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.btnCon {
+    width: 375px;
+}
+.btn {
+    color: #FFFFFF;
+    background-color: #24243E;
+    width: inherit;
+    height: 72px;
+    margin-top: 18px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnSpanCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footCopyRight {
+    color: #9E9E9E;
+    font-size: 12px;
+}
+
+.infoCon {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footText {
+    color: #424242;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+      display: flex;
+    }
+
+    .bg {
+        width: 40%;
+    }
+
+    .become {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .conRight {
+        width: 80%;
+    }
+
+    .become h2 {
+        font-size: 2rem;
+    }
+
+    .formInput {
+        /* border: 1px solid #757575; */
+        width: 420px;
+    }
+
+    .btnCon {
+        width: 475px;
+    }
+
+    .foot {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+  }
+
+
+/** Internet Explorer */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        div {
+            display: block;
+        }
+    }
+    
+    /** Microsoft Edge */
+    @supports (-ms-ime-align: auto) {
+        .foot {
+            margin-top: 120px;
+
+        }
+    }
+    
+    /** Mozilla Firefox */
+    @-moz-document url-prefix() {
+        .foot {
+            margin-top: 120px;
+        }
+    }
+    
+    
+    /** Safari */
+    @media not all and (min-resolution: 0.001dpcm) {
+        div {
+
+        }
+    }
+    
+    
+    /** Chrominum */
+    @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+        .foot {
+            margin-top: 120px;
+        }
+    }
+
