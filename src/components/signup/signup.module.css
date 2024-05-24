@@ -110,7 +110,7 @@
 .formInput {
     position: relative;
     /* border: 1px solid #757575; */
-    width: 320px;
+    width: 275px;
     height: 52px;
     margin-top: 18px;
 
@@ -140,7 +140,7 @@
 
 
 .btnCon {
-    width: 375px;
+    width: 333px;
 }
 .btn {
     color: #FFFFFF;
