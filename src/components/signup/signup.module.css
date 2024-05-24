@@ -184,7 +184,9 @@
     font-size: 12px;
 }
 
-@media screen and (min-width: 600px) {
+
+
+@media screen and (min-width: 800px) {
     .container {
       display: flex;
     }
@@ -203,7 +205,7 @@
     }
 
     .become h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .formInput {
@@ -221,6 +223,7 @@
 
     }
   }
+
 
 
 /** Internet Explorer */
